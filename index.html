@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/55d1d6210d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="img/Logo.png" width="100%" alt="">
+        </div>
+    </header>
+
+    <main>
+        <div class="form">
+            <form action="">
+                <div class="title__form">
+                    <h3>Faça o seu login</h3>
+                </div>
+                <div class="dados">
+                    <div class="cpf">
+                        <div id="div__cpf">
+                            <input type="text" required id="input__cpf" placeholder="CPF">
+                        </div>
+                    </div>
+                    <div class="password">
+                        <div id="div__password">
+                            <input type="password" required name="" id="input__password" placeholder="Senha">
+                        </div>
+                    </div>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Conectar" onclick="VerificarDados()">
+                </div>
+                <div class="cadastro">
+                    <span>
+                        <button type="button">Faça o cadastro</button>
+                    </span>
+                    <span>
+                        <button type="button">Esqueceu a senha?</button>
+                    </span>
+                </div>
+                <div class="login__plataformas">
+                    <button class="button__google">
+                        <i class="fa-brands fa-google"></i>
+                        <span>oogle</span>
+                    </button>
+                    <button class="button__facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <span>acebook</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
