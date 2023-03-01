@@ -30,7 +30,6 @@ header .logo {
 main {
     width: 100%;
     position: relative;
-    border: 1px solid white;
     height: 85vh;
 }
 main .form {
